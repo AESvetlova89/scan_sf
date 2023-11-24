@@ -1,0 +1,53 @@
+{
+  "name": "scan_sf",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material/textfield": "^14.0.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.2",
+    "gh-pages": "^6.1.0",
+    "html-entities": "^2.4.0",
+    "mobx": "^6.11.0",
+    "mobx-react-lite": "^4.0.5",
+    "react": "^18.2.0",
+    "react-datepicker": "^4.23.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.48.2",
+    "react-icons": "^4.12.0",
+    "react-multi-carousel": "^2.8.4",
+    "react-router-dom": "^6.20.0",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-xml-parser": "^1.1.8",
+    "slick-carousel": "^1.8.1",
+    "use-mask-input": "^3.3.7",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

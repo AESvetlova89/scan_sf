@@ -1,0 +1,33 @@
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.head-nav {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  & .headnav__link {
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .head-nav {
+    display: none;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .head {
+    padding: 10px;
+  }
+
+  .head-logo {
+    width: 80px;
+  }
+}

@@ -1,0 +1,132 @@
+.main-container {
+  padding: var(--stand-padding);
+}
+
+.service-search {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 177px);
+}
+
+.service-search__heading {
+  font-family: "Arial";
+  font-size: 50px;
+  line-height: 70px;
+  letter-spacing: var(--stand-letter-spacing);
+  margin: 0;
+}
+
+.service-search__description {
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: var(--stand-letter-spacing);
+  margin: 45px 0;
+  max-width: 65%;
+}
+
+.service-search__button {
+  cursor: pointer;
+  width: 45%;
+  height: 55px;
+  background-color: var(--stand-color-blue);
+  border: none;
+  border-radius: 4px;
+  transition: var(--stand-transition);
+}
+
+.service-search__button > a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: var(--stand-letter-spacing);
+}
+
+
+
+.service-search__image {
+  position: relative;
+}
+
+.service-search__image::before {
+  background-color: #fff;
+  position: absolute;
+  top: 15px;
+  right: 50px;
+  content: "";
+  width: 28px;
+  height: 20px;
+
+}
+
+.why-us__title {
+  margin-top: 8%;
+  font-family: "Ferry","Arial";
+  font-size: 42px;
+  letter-spacing: var(--stand-letter-spacing);
+}
+
+.why-us__graphic {
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../../images/we.svg");
+  margin-bottom: 8%;
+
+}
+
+@media all and (max-width: 1300px) {
+  .service-search {
+    flex-direction: column;
+  }
+
+  .service-search__button,
+  .service-search__description {
+    min-width: 75%;
+  }
+
+  .service-image {
+    max-width: 100%;
+  }
+
+  .service-search__mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+}
+
+@media all and (max-width: 550px) {
+
+  .service-search__description {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+
+  .service-search__image::before {
+    top: 2%;
+    right: 10%;
+  }
+  .why-us__graphic {
+    background-size: 250%;
+    height: 340px;
+  }
+  .main-container {
+    padding: 8px;
+  }
+
+  .service-search__button,
+  .service-search__description {
+    min-width: 100%;
+  }
+
+  .service-search__heading,
+  .why-us__title {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+
+}

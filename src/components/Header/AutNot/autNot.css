@@ -1,0 +1,47 @@
+.aut-not {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+
+.sign-up {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #333;
+  text-decoration: none;
+}
+
+.sign-in {
+  font-size: 14px;
+  letter-spacing: var(--letter-spacing);
+  padding: 4px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000;
+  background-color: var(--stand-color-light-green);
+  transition: var(---stand-transition);
+}
+
+
+.Divider {
+  width: 1px;
+  height: 20px;
+  background-color: #0077b6;
+  margin: 0 10px;
+}
+
+
+
+
+
+@media (max-width: 850px) {
+  .aut-not {
+    display: none;
+  }
+}
